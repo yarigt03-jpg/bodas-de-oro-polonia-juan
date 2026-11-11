@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bodas de Oro · Polonia &amp; Juan</title>
+<meta name="description" content="Celebremos 50 años de amor. Misa 6:00 p.m. en la Capilla Santa Ana, 17 de diciembre de 2026.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bodas de Oro · Polonia &amp; Juan">
+<meta property="og:description" content="17 de diciembre de 2026 · Misa a las 6:00 p.m. · Capilla Santa Ana">
+<meta property="og:url" content="https://yarigt03-jpg.github.io/bodas-de-oro-polonia-juan/">
+<meta property="og:image" content="https://yarigt03-jpg.github.io/bodas-de-oro-polonia-juan/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#E9EADF">
+<link rel="icon" href="icono.png">
+<link rel="preload" as="font" type="font/woff2" href="pinyon-script-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="cormorant-garamond-latin-300-normal.woff2" crossorigin>
+<link rel="preload" as="image" href="sobre-cerrado.webp">
+<link rel="preload" as="image" href="sobre-solapa.webp">
+<style>
+@font-face{font-family:"Cormorant Garamond";src:url(cormorant-garamond-latin-300-normal.woff2) format("woff2");font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(cormorant-garamond-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(cormorant-garamond-latin-500-normal.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(cormorant-garamond-latin-600-normal.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(cormorant-garamond-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Montserrat";src:url(montserrat-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Montserrat";src:url(montserrat-latin-500-normal.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Montserrat";src:url(montserrat-latin-600-normal.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Pinyon Script";src:url(pinyon-script-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+/* Layout: envelope overlay → collage of stationery → painted bands and ivory sections, all on linen paper */
+:root{
+  --linen:#E9EADF;
+  --ivory:#F7F5EE;
+  --paper:#FBFAF5;
+  --sage:#5E6A50;
+  --sage-deep:#4C573F;
+  --sage-mist:#E2E5D8;
+  --ink:#3B4232;
+  --ink-soft:#6A705F;
+  --gold:#A8884E;
+  --gold-soft:#CDB98A;
+  --serif:"Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --sans:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --script:"Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+  --shadow:0 18px 40px -18px rgba(52,58,40,.45), 0 4px 10px -4px rgba(52,58,40,.18);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--linen);color:var(--ink);font-family:var(--serif);font-size:18px;line-height:1.55;overflow-x:hidden}
+body.locked{overflow:hidden;height:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+.eyebrow{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--ink-soft);margin:0}
+.title{font-family:var(--serif);font-weight:500;font-size:clamp(30px,5vw,40px);line-height:1.1;color:var(--gold);margin:.25em 0 0;text-wrap:balance}
+.crown{width:120px;margin:0 auto 14px;mix-blend-mode:multiply}
+.crown.light{mix-blend-mode:normal;filter:brightness(0) invert(1);opacity:.75}
+.sec{padding-block:clamp(64px,10vw,104px);text-align:center}
+.lead{max-width:34ch;margin:18px auto 0;font-size:clamp(20px,2.6vw,24px);color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:.6em;font-family:var(--sans);font-weight:600;font-size:13px;letter-spacing:.06em;text-decoration:none;background:var(--gold);color:#fff;padding:14px 26px;border-radius:2px;border:0;cursor:pointer;box-shadow:0 8px 18px -10px rgba(110,86,40,.7);transition:transform .2s, background .2s}
+.btn:hover{background:#97793F;transform:translateY(-1px)}
+.btn:focus-visible,.pill:focus-visible,.sticker:focus-visible,.rsvp:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* ---------- ENVELOPE OVERLAY ---------- */
+#sobre{position:fixed;inset:0;z-index:50;background:radial-gradient(120% 90% at 50% 40%, #F1F1E8 0%, var(--linen) 70%);display:flex;align-items:center;justify-content:center;transition:opacity .8s ease;overflow:hidden;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+#sobre.gone{opacity:0;pointer-events:none}
+.env{--w:min(100vw, 440px, calc((100svh - 32px) * 0.5634));position:relative;width:var(--w);aspect-ratio:640/1136;perspective:1600px;cursor:pointer;filter:drop-shadow(0 30px 40px rgba(60,66,46,.28));-webkit-tap-highlight-color:transparent}
+@media (max-width:480px){.env{--w:min(100vw, calc(100svh * 0.5634));filter:none}}
+.env:focus-visible{outline:2px solid var(--gold);outline-offset:6px}
+.env .layer{position:absolute;inset:0;width:100%;height:100%}
+.liner{position:absolute;left:0;right:0;top:0;height:64%;background:linear-gradient(180deg,#E3E2D3 0%,#EEEDE2 60%,#E6E5D8 100%);box-shadow:inset 0 18px 30px -18px rgba(60,60,40,.35);z-index:1;overflow:hidden}
+.liner img{position:absolute;width:86%;left:7%;top:6%;mix-blend-mode:multiply;opacity:.9}
+.inner-card{position:absolute;z-index:2;left:11%;right:11%;top:20%;height:40%;background:var(--paper);border:1px solid var(--gold-soft);outline:1px solid var(--gold-soft);outline-offset:-7px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.5em;transform:translateY(22%);transition:transform 1.1s cubic-bezier(.22,.8,.25,1);box-shadow:0 10px 24px -14px rgba(60,60,40,.5)}
+.inner-card .eyebrow{color:var(--gold);font-size:clamp(8px,2.2vw,10px)}
+.inner-card .n{font-family:var(--script);font-size:clamp(28px,8.5vw,40px);color:var(--ink);line-height:1.1}
+.inner-card .d{font-family:var(--sans);font-size:clamp(9px,2.4vw,11px);letter-spacing:.3em;color:var(--gold)}
+.body-closed,.body-open{z-index:3;pointer-events:none;user-select:none}
+.body-open{opacity:0;transition:opacity .45s ease}
+.flap{position:absolute;left:0;top:0;width:100%;height:66.46%;z-index:5;transform-origin:50% 0;transform-style:preserve-3d;transition:transform 1.15s cubic-bezier(.45,.05,.3,1)}
+.flap-front,.flap-back{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.flap-front img{width:100%;height:100%;pointer-events:none;user-select:none}
+.flap-back{transform:rotateX(180deg);clip-path:polygon(0 0,100% 0,100% 41.1%,50% 95.1%,0 40.3%);background:linear-gradient(0deg,#E4E3D6,#ECEBE0)}
+.mono{position:absolute;left:0;right:0;text-align:center;color:#EFF0E3;pointer-events:none}
+.mono.pj{top:31.5%;font-family:var(--serif);font-weight:300;font-size:calc(var(--w) * .13);line-height:1;letter-spacing:.02em;
+  text-shadow:-1px -1px 0 rgba(255,255,255,.95),1px 1px 1px rgba(60,60,40,.36),2px 2px 3px rgba(60,60,40,.14)}
+.mono.pj i{font-style:italic;font-size:.62em;padding:0 .12em;vertical-align:.12em}
+.mono.bo{top:50%;font-family:var(--sans);font-weight:500;font-size:calc(var(--w) * .021);letter-spacing:.38em;
+  text-shadow:-1px -1px 0 rgba(255,255,255,.9),1px 1px 1px rgba(60,60,40,.28)}
+.hint{position:absolute;left:0;right:0;top:79%;z-index:4;text-align:center;font-family:var(--sans);font-weight:500;font-size:max(9px, calc(var(--w) * .024));letter-spacing:.32em;color:#4A5240;animation:pulse 2.2s ease-in-out infinite;pointer-events:none;transition:opacity .3s}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+.env.tap .flap{animation:nudge .28s ease}
+@keyframes nudge{0%,100%{transform:rotateX(0)}35%{transform:rotateX(-6deg)}70%{transform:rotateX(3deg)}}
+.env.open .flap{transform:rotateX(180deg)}
+.env.open .body-open{opacity:1}
+.env.open .hint{opacity:0;animation:none}
+.env.low .flap{z-index:1}
+.env.rise .inner-card{transform:translateY(-58%)}
+
+/* ---------- MUSIC PILL ---------- */
+.pill{position:fixed;z-index:40;right:max(14px, env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:8px;background:rgba(251,250,245,.94);color:var(--ink);border:1px solid var(--gold-soft);border-radius:999px;padding:10px 16px 10px 12px;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;box-shadow:var(--shadow);cursor:pointer;opacity:0;transform:translateY(10px);transition:opacity .4s,transform .4s}
+.pill.show{opacity:1;transform:none}
+.pill .ic{width:22px;height:22px;border-radius:50%;background:var(--gold);color:#fff;display:grid;place-items:center;font-size:11px}
+.pill .bars{display:none;gap:2px;align-items:flex-end;height:12px}
+.pill.playing .bars{display:flex}
+.pill.playing .ic{display:none}
+.pill .bars span{width:3px;background:var(--gold);border-radius:1px;animation:eq 1s ease-in-out infinite}
+.pill .bars span:nth-child(2){animation-delay:.2s}.pill .bars span:nth-child(3){animation-delay:.4s}
+@keyframes eq{0%,100%{height:3px}50%{height:12px}}
+
+/* ---------- COLLAGE ---------- */
+.collage{position:relative;padding-block:clamp(40px,7vw,80px) clamp(56px,8vw,96px);background:radial-gradient(90% 70% at 30% 20%, #F1F2EA 0%, var(--linen) 75%);overflow:hidden}
+.board{position:relative;display:grid;grid-template-columns:1.1fr 1fr .95fr;grid-template-areas:"names date pol1" "names date music" "rsvp sticker music" "pol2 . music";gap:22px 28px;align-items:start}
+.deco{position:absolute;pointer-events:none;mix-blend-mode:multiply;z-index:0}
+.deco.a{width:min(46%,420px);left:-6%;top:-4%;transform:rotate(-14deg)}
+.deco.b{width:min(36%,340px);right:-5%;top:32%;transform:rotate(8deg)}
+.deco.c{width:min(30%,280px);left:30%;bottom:-6%;transform:rotate(180deg)}
+.board > *{position:relative;z-index:1}
+.card{background:var(--paper);box-shadow:var(--shadow)}
+.names{grid-area:names;background:var(--sage);color:#F4F2E8;padding:clamp(28px,4vw,44px) clamp(22px,3vw,36px) clamp(56px,6vw,70px);text-align:center;transform:rotate(-2.5deg);margin-top:30px}
+.names .eyebrow{color:#E9E6D6;font-size:10.5px;line-height:1.7}
+.names h1{font-family:var(--script);font-weight:400;font-size:clamp(54px,7vw,78px);line-height:1.02;margin:.25em 0 .1em;color:#FBF9F0}
+.names h1 span{display:block}
+.names p{margin:0;font-size:clamp(19px,2.2vw,22px);color:#EDEADF}
+.seal{position:absolute;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-family:var(--serif);font-weight:600;font-size:17px;letter-spacing:.12em;color:#FFF8E6;background:radial-gradient(circle at 35% 30%,#D9BE7E 0%,#B08F4F 45%,#8C6E36 100%);box-shadow:inset 0 0 0 3px rgba(255,240,200,.25),inset 0 -4px 8px rgba(70,50,20,.35),0 6px 14px -6px rgba(60,40,10,.6)}
+.names .seal{right:-16px;bottom:-18px}
+.date{grid-area:date;padding:30px 20px 26px;text-align:center;transform:rotate(2.2deg);margin-top:70px;outline:1px solid var(--gold-soft);outline-offset:-10px}
+.date .num{font-family:var(--serif);font-weight:500;font-size:clamp(68px,8vw,88px);line-height:1;color:var(--gold)}
+.date .mes{font-family:var(--script);font-size:clamp(40px,4.6vw,52px);line-height:1.2;color:var(--ink)}
+.date .yr{font-family:var(--serif);font-size:24px;letter-spacing:.4em;margin:.2em 0 .5em;padding-left:.4em}
+.date .rule{width:44px;height:1px;background:var(--gold);margin:0 auto 12px}
+.date .when{font-family:var(--sans);font-weight:600;font-size:11.5px;letter-spacing:.2em}
+.date .where{font-family:var(--sans);font-size:10.5px;letter-spacing:.24em;color:var(--ink-soft);margin-top:4px}
+.polaroid{margin:0;background:#FFFEF9;padding:10px 10px 34px;box-shadow:var(--shadow)}
+.polaroid img{aspect-ratio:4/5;object-fit:cover;width:100%}
+.polaroid figcaption{font-family:var(--script);font-size:22px;text-align:center;color:var(--ink-soft);margin-top:6px;line-height:1}
+.pol1{grid-area:pol1;transform:rotate(4.5deg);max-width:240px;justify-self:center}
+.pol2{grid-area:pol2;transform:rotate(-4deg);max-width:230px;justify-self:center;margin-top:-10px}
+.music{grid-area:music;padding:22px 18px 20px;text-align:center;transform:rotate(-1deg);outline:1px solid var(--gold-soft);outline-offset:-8px}
+.music .eyebrow{color:var(--gold)}
+.music h2{font-family:var(--script);font-weight:400;font-size:38px;line-height:1.1;margin:.15em 0 .35em;color:var(--ink)}
+.player{position:relative;width:100%;max-width:360px;margin:0 auto;aspect-ratio:16/9;background:#1d1d1a;border-radius:6px;overflow:hidden}
+.player iframe,.player #yt{position:absolute;inset:0;width:100%;height:100%;border:0}
+.music small{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.04em;color:var(--ink-soft);margin-top:10px;min-height:1.4em}
+.music small.nudge{color:var(--gold);font-weight:600}
+.rsvp{grid-area:rsvp;display:flex;align-items:center;gap:16px;text-decoration:none;padding:18px 22px 18px 18px;transform:rotate(-1.6deg);font-size:22px;color:var(--ink)}
+.rsvp .seal{position:static;flex:none;width:48px;height:48px;font-size:14px}
+.rsvp span.t{display:block;line-height:1.2}
+.rsvp span.s{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);margin-top:4px}
+.sticker{grid-area:sticker;justify-self:center;align-self:center;width:128px;height:128px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#C7A867,#A8884E 60%,#8F7240);color:#FFF9EA;display:grid;place-content:center;text-align:center;text-decoration:none;transform:rotate(-10deg);box-shadow:var(--shadow);line-height:1.05}
+.sticker b{font-family:var(--sans);font-size:9.5px;letter-spacing:.2em;font-weight:600}
+.sticker em{font-family:var(--script);font-style:normal;font-size:30px}
+
+/* ---------- COUNTDOWN ---------- */
+.count{position:relative;color:#FBF9F0;text-align:center;padding-block:clamp(64px,9vw,96px) clamp(80px,11vw,120px);background:linear-gradient(180deg,#C9A88A 0%,#B9A27F 32%,#8E9A72 62%,#5E6A50 100%);overflow:hidden}
+.count svg.hills{position:absolute;left:0;right:0;bottom:0;width:100%;height:58%;pointer-events:none}
+.count .sun{position:absolute;width:340px;height:340px;right:12%;top:-60px;border-radius:50%;background:radial-gradient(circle,rgba(255,244,214,.75) 0%,rgba(255,244,214,0) 65%);pointer-events:none}
+.count .inner{position:relative}
+.count h2{font-family:var(--script);font-weight:400;font-size:clamp(52px,8vw,74px);margin:0;line-height:1;text-shadow:0 2px 12px rgba(60,50,30,.25)}
+.clock{display:flex;justify-content:center;gap:clamp(8px,2vw,16px);margin-top:26px;flex-wrap:wrap}
+.clock div{min-width:clamp(70px,16vw,104px);padding:14px 8px 10px;background:rgba(58,64,46,.28);border:1px solid rgba(255,250,235,.35);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.clock b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(38px,6vw,56px);line-height:1;font-variant-numeric:tabular-nums}
+.clock span{font-family:var(--sans);font-size:10px;letter-spacing:.22em;text-transform:uppercase}
+.count .who{font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.3em;margin-top:22px}
+
+/* ---------- HISTORIA ---------- */
+.historia{background:var(--ivory)}
+.photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:880px;margin:40px auto 0}
+.photos figure{margin:0;background:#fff;padding:8px;box-shadow:var(--shadow)}
+.photos img{aspect-ratio:3/4;object-fit:cover;width:100%}
+
+/* ---------- PROGRAMA ---------- */
+.programa{background:var(--sage-mist)}
+.timeline{list-style:none;margin:40px auto 0;padding:34px clamp(22px,5vw,56px);max-width:620px;background:var(--paper);box-shadow:var(--shadow);text-align:left;display:grid;gap:28px}
+.timeline li{display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:baseline}
+.timeline .h{font-family:var(--sans);font-weight:600;font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.timeline h3{font-family:var(--serif);font-weight:500;font-size:clamp(24px,3vw,28px);color:var(--ink);margin:0;line-height:1.15}
+.timeline p{margin:4px 0 0;font-family:var(--sans);font-size:13px;color:var(--ink-soft)}
+
+/* ---------- LUGAR ---------- */
+.lugar{background:var(--ivory)}
+.places{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:760px;margin:40px auto 0}
+.place{background:var(--paper);box-shadow:var(--shadow);padding:30px 22px 32px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.place .eyebrow{color:var(--gold)}
+.place h3{font-family:var(--serif);font-weight:500;font-size:clamp(25px,3vw,30px);margin:0 0 14px;line-height:1.15}
+
+/* ---------- RSVP ---------- */
+.confirma{background:var(--sage);color:#F6F3E8}
+.confirma .eyebrow{color:#E6E2D2}
+.confirma .title{color:#FBF8EE}
+.confirma .lead{color:#F1EEE2}
+.confirma .tel{display:block;margin-top:16px;font-family:var(--sans);font-size:14px;letter-spacing:.06em;user-select:all}
+.confirma .btn{margin-top:26px;background:#FBF8EE;color:var(--sage-deep)}
+.confirma .btn:hover{background:#fff}
+
+/* ---------- CIERRE ---------- */
+.cierre{background:var(--sage-deep);color:#FBF8EE;padding-block:80px 96px}
+.cierre p{font-family:var(--serif);font-size:clamp(28px,4vw,38px);margin:0}
+.cierre .firma{font-family:var(--script);font-size:clamp(46px,7vw,64px);line-height:1.1;margin-top:6px}
+
+/* ---------- REVEAL ---------- */
+.rv{transition:opacity .9s ease, transform .9s ease}
+.rv.pre{opacity:0;transform:translateY(18px)}
+
+/* ---------- MOBILE ---------- */
+@media (max-width:760px){
+  body{font-size:17px}
+  .board{grid-template-columns:repeat(6,minmax(0,1fr));grid-template-areas:none;gap:0}
+  .board > *{grid-area:auto}
+  .pol1{grid-column:3 / span 4;grid-row:1;align-self:start;max-width:158px;justify-self:end;z-index:2;padding:7px 7px 24px;margin-right:4px}
+  .pol1 figcaption{font-size:17px}
+  .names{grid-column:1 / span 5;grid-row:2;margin-top:-30px;padding-top:56px}
+  .date{grid-column:2 / span 5;grid-row:3;margin-top:-24px;z-index:2}
+  .sticker{grid-column:1 / span 3;grid-row:4;margin-top:-22px;justify-self:start;width:112px;height:112px;z-index:3}
+  .pol2{grid-column:3 / span 4;grid-row:4;margin-top:22px;max-width:180px;justify-self:end}
+  .music{grid-column:1 / -1;grid-row:5;margin-top:34px;transform:rotate(-.6deg)}
+  .rsvp{grid-column:1 / span 6;grid-row:6;margin-top:28px;justify-self:center}
+  .names .seal{left:-12px;right:auto}
+  .deco.a{width:72%;left:-18%;top:-2%}
+  .deco.b{width:60%;right:-22%;top:40%}
+  .deco.c{width:56%;left:20%;bottom:-3%}
+  .photos{grid-template-columns:1fr;max-width:300px}
+  .places{grid-template-columns:1fr}
+  .timeline li{grid-template-columns:1fr;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  .hint,.pill .bars span{animation:none}
+  .flap,.inner-card,.rv,#sobre{transition-duration:.01s}
+}
+</style>
+</head>
+<body class="locked">
+
+<!-- SOBRE -->
+<div id="sobre" aria-label="Invitación cerrada">
+  <div class="env" id="env" role="button" tabindex="0" aria-label="Toca el sello para abrir la invitación">
+    <div class="liner"><img src="ramas-par.webp" alt=""></div>
+    <div class="inner-card" aria-hidden="true">
+      <p class="eyebrow">Bodas de Oro</p>
+      <div class="n">Polonia &amp; Juan</div>
+      <div class="d">17 · 12 · 2026</div>
+    </div>
+    <img class="layer body-closed" src="sobre-cerrado.webp" alt="">
+    <img class="layer body-open" src="sobre-abierto.webp" alt="">
+    <div class="hint">TOCA EL SELLO PARA ABRIR</div>
+    <div class="flap">
+      <div class="flap-front">
+        <img src="sobre-solapa.webp" alt="">
+        <div class="mono pj">P<i>&amp;</i>J</div>
+        <div class="mono bo">BODAS DE ORO</div>
+      </div>
+      <div class="flap-back"></div>
+    </div>
+  </div>
+</div>
+
+<button class="pill" id="pill" type="button" aria-label="Reproducir o pausar nuestra canción">
+  <span class="ic">▶</span><span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+  <span id="pillTxt">Nuestra canción</span>
+</button>
+
+<main id="contenido">
+
+  <!-- COLLAGE -->
+  <section class="collage">
+    <img class="deco a" src="rama-izq.webp" alt="">
+    <img class="deco b" src="rama-der.webp" alt="">
+    <img class="deco c" src="rama-izq.webp" alt="">
+    <div class="wrap">
+      <div class="board">
+        <article class="card names">
+          <p class="eyebrow">Te invitamos a celebrar las<br>Bodas de Oro de</p>
+          <h1><span>Polonia</span><span>&amp; Juan</span></h1>
+          <p>50 años de amor</p>
+          <div class="seal" aria-hidden="true">PJ</div>
+        </article>
+
+        <figure class="polaroid pol1">
+          <img src="foto-de-pie.jpg" alt="Polonia y Juan de pie, tomados de la mano">
+          <figcaption>Siempre juntos</figcaption>
+        </figure>
+
+        <article class="card date">
+          <div class="num">17</div>
+          <div class="mes">Diciembre</div>
+          <div class="yr">2026</div>
+          <div class="rule"></div>
+          <div class="when">MISA A LAS 6:00 P.M.</div>
+          <div class="where">CAPILLA SANTA ANA</div>
+        </article>
+
+        <a class="sticker" href="#programa"><b>TOCA PARA VER</b><em>los detalles</em></a>
+
+        <figure class="polaroid pol2">
+          <img src="foto-sillon.jpg" alt="Juan de pie junto a Polonia, sentada en un sillón">
+          <figcaption>50 años</figcaption>
+        </figure>
+
+        <article class="card music" id="cancion">
+          <p class="eyebrow">Nuestra canción</p>
+          <h2>La que nos acompaña</h2>
+          <div class="player"><div id="yt"></div></div>
+          <small id="musicNote">Sube el volumen ♪</small>
+        </article>
+
+        <a class="card rsvp" href="#confirmar">
+          <span class="seal" aria-hidden="true">PJ</span>
+          <span><span class="t">Confirma tu asistencia</span><span class="s">Antes del 1 de diciembre</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUENTA REGRESIVA -->
+  <section class="count" aria-label="Cuenta regresiva">
+    <div class="sun"></div>
+    <svg class="hills" viewBox="0 0 1440 400" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 210 C 220 150 380 190 560 165 C 760 135 900 205 1100 170 C 1260 142 1360 160 1440 150 L1440 400 L0 400Z" fill="#9AA57E" opacity=".55"/>
+      <path d="M0 270 C 200 220 420 265 640 235 C 860 205 1020 262 1220 236 C 1330 222 1400 230 1440 226 L1440 400 L0 400Z" fill="#7C8A63" opacity=".75"/>
+      <path d="M0 330 C 260 292 480 340 720 312 C 960 284 1180 336 1440 300 L1440 400 L0 400Z" fill="#5E6A50"/>
+      <path d="M0 352 C 360 318 1080 318 1440 352" stroke="#CDB98A" stroke-width="2" fill="none" opacity=".7"/>
+    </svg>
+    <div class="inner wrap">
+      <h2>Falta poco</h2>
+      <div class="clock" id="clock">
+        <div><b id="cd-d">--</b><span>Días</span></div>
+        <div><b id="cd-h">--</b><span>Horas</span></div>
+        <div><b id="cd-m">--</b><span>Minutos</span></div>
+        <div><b id="cd-s">--</b><span>Segundos</span></div>
+      </div>
+      <div class="who">POLONIA &amp; JUAN</div>
+    </div>
+  </section>
+
+  <!-- HISTORIA -->
+  <section class="sec historia">
+    <div class="wrap rv">
+      <img class="crown" src="ramas-par.webp" alt="">
+      <p class="eyebrow">El comienzo de todo</p>
+      <h2 class="title">Nuestra historia</h2>
+      <p class="lead">Hace 50 años nos dijimos que sí. Hoy queremos celebrar con ustedes medio siglo de amor, fe y familia.</p>
+      <div class="photos">
+        <figure><img src="foto-sillon.jpg" alt="Juan mira a Polonia, sentada en un sillón" loading="lazy"></figure>
+        <figure><img src="foto-cerca.jpg" alt="Polonia sonríe mirando a Juan" loading="lazy"></figure>
+        <figure><img src="foto-de-pie.jpg" alt="Polonia y Juan de pie, tomados de la mano" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMA -->
+  <section class="sec programa" id="programa">
+    <div class="wrap rv">
+      <img class="crown" src="ramas-par.webp" alt="">
+      <p class="eyebrow">Un día para recordar</p>
+      <h2 class="title">Programa</h2>
+      <ol class="timeline">
+        <li><span class="h">6:00 p.m.</span><div><h3>Misa de acción de gracias</h3><p>Capilla Santa Ana</p></div></li>
+        <li><span class="h">Al terminar</span><div><h3>Recepción y fiesta</h3><p>Rancho Cepeda</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- LUGAR -->
+  <section class="sec lugar">
+    <div class="wrap rv">
+      <img class="crown" src="ramas-par.webp" alt="">
+      <p class="eyebrow">Nos vemos allí</p>
+      <h2 class="title">Lugar</h2>
+      <div class="places">
+        <div class="place">
+          <p class="eyebrow">Misa · 6:00 p.m.</p>
+          <h3>Capilla Santa Ana</h3>
+          <a class="btn" href="https://maps.app.goo.gl/eN5gRYwqvbQPgv9S7" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+        <div class="place">
+          <p class="eyebrow">Fiesta · al terminar la misa</p>
+          <h3>Rancho Cepeda</h3>
+          <a class="btn" href="https://maps.app.goo.gl/UfT5XmVu3j8aPFeB6" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONFIRMACIÓN -->
+  <section class="sec confirma" id="confirmar">
+    <div class="wrap rv">
+      <img class="crown light" src="ramas-par.webp" alt="">
+      <p class="eyebrow">Será un honor tenerte con nosotros</p>
+      <h2 class="title">Confirma tu asistencia</h2>
+      <p class="lead">Antes del 1 de diciembre de 2026</p>
+      <a class="btn" id="wa" href="#" target="_blank" rel="noopener">Confirmar por WhatsApp</a>
+      <span class="tel">+1 (809) 790-0648</span>
+    </div>
+  </section>
+
+  <!-- CIERRE -->
+  <section class="sec cierre">
+    <div class="wrap">
+      <img class="crown light" src="ramas-par.webp" alt="">
+      <p>¡Celebremos 50 años de amor!</p>
+      <div class="firma">Polonia y Juan</div>
+    </div>
+  </section>
+</main>
+
+<script>
+(function(){
+  var YT_ID = "jhx3hYS__JI";
+  var EVENT = new Date("2026-12-17T18:00:00-04:00");
+  var WA_NUM = "18097900648";
+  var WA_MSG = "Hola, confirmo mi asistencia a las Bodas de Oro de Polonia y Juan el 17 de diciembre de 2026. Nombre: ___ Cantidad de personas: ___";
+  document.getElementById("wa").href = "https://wa.me/" + WA_NUM + "?text=" + encodeURIComponent(WA_MSG);
+
+  var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---- YouTube ---- */
+  var player = null, ready = false, wantPlay = false, playing = false;
+  var pill = document.getElementById("pill"), pillTxt = document.getElementById("pillTxt"), note = document.getElementById("musicNote");
+  window.onYouTubeIframeAPIReady = function(){
+    try{
+      player = new YT.Player("yt", {
+        videoId: YT_ID,
+        playerVars: { playsinline: 1, rel: 0, modestbranding: 1, loop: 1, playlist: YT_ID },
+        events: {
+          onReady: function(){ ready = true; if (wantPlay) tryPlay(); },
+          onStateChange: function(e){
+            playing = (e.data === 1);
+            pill.classList.toggle("playing", playing);
+            pillTxt.textContent = playing ? "Pausar canción" : "Nuestra canción";
+            if (playing){ note.textContent = "Sonando ♪"; note.classList.remove("nudge"); }
+          }
+        }
+      });
+    }catch(err){ fallbackIframe(); }
+  };
+  function fallbackIframe(){
+    var box = document.getElementById("yt");
+    if (!box || box.tagName === "IFRAME") return;
+    var f = document.createElement("iframe");
+    f.src = "https://www.youtube.com/embed/" + YT_ID + "?playsinline=1&rel=0";
+    f.allow = "autoplay; encrypted-media; picture-in-picture"; f.allowFullscreen = true; f.title = "Nuestra canción";
+    box.replaceWith(f);
+  }
+  (function loadApi(){
+    var s = document.createElement("script"); s.src = "https://www.youtube.com/iframe_api"; s.async = true;
+    s.onerror = fallbackIframe; document.head.appendChild(s);
+    setTimeout(function(){ if (!window.YT || !window.YT.Player) fallbackIframe(); }, 8000);
+  })();
+  function tryPlay(){
+    if (player && ready && typeof player.playVideo === "function"){ try{ player.playVideo(); }catch(e){} }
+  }
+  function startMusic(){
+    wantPlay = true; tryPlay();
+    setTimeout(function(){
+      if (!playing){ note.textContent = "Toca ▶ en el video para escuchar nuestra canción"; note.classList.add("nudge"); }
+    }, 4200);
+  }
+  pill.addEventListener("click", function(){
+    if (player && ready){
+      try{ if (playing) player.pauseVideo(); else player.playVideo(); }catch(e){}
+      if (!playing) setTimeout(function(){ if (!playing) document.getElementById("cancion").scrollIntoView({behavior: reduce ? "auto" : "smooth", block: "center"}); }, 900);
+    } else {
+      document.getElementById("cancion").scrollIntoView({behavior: reduce ? "auto" : "smooth", block: "center"});
+    }
+  });
+
+  /* ---- Sobre ---- */
+  var env = document.getElementById("env"), sobre = document.getElementById("sobre"), opened = false;
+  function openEnvelope(){
+    if (opened) return; opened = true;
+    startMusic();
+    var t = reduce ? 0.15 : 1;
+    env.classList.add("tap");
+    setTimeout(function(){ env.classList.remove("tap"); env.classList.add("open"); }, 280 * t);
+    setTimeout(function(){ env.classList.add("low"); }, 820 * t);
+    setTimeout(function(){ env.classList.add("rise"); }, 1150 * t);
+    setTimeout(function(){
+      sobre.classList.add("gone");
+      document.body.classList.remove("locked");
+      window.scrollTo(0, 0);
+      pill.classList.add("show");
+    }, 2700 * t);
+    setTimeout(function(){ sobre.style.display = "none"; }, 3600 * t);
+  }
+  env.addEventListener("click", openEnvelope);
+  env.addEventListener("keydown", function(e){ if (e.key === "Enter" || e.key === " "){ e.preventDefault(); openEnvelope(); } });
+
+  /* ---- Cuenta regresiva ---- */
+  function pad(n){ return (n < 10 ? "0" : "") + n; }
+  function tick(){
+    var ms = EVENT - new Date();
+    if (ms < 0) ms = 0;
+    var s = Math.floor(ms / 1000);
+    document.getElementById("cd-d").textContent = Math.floor(s / 86400);
+    document.getElementById("cd-h").textContent = pad(Math.floor(s % 86400 / 3600));
+    document.getElementById("cd-m").textContent = pad(Math.floor(s % 3600 / 60));
+    document.getElementById("cd-s").textContent = pad(s % 60);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---- Aparición suave al hacer scroll ---- */
+  if (!reduce && "IntersectionObserver" in window){
+    var els = document.querySelectorAll(".rv");
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.remove("pre"); io.unobserve(en.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    els.forEach(function(el){
+      var r = el.getBoundingClientRect();
+      if (r.top > window.innerHeight){ el.classList.add("pre"); io.observe(el); }
+    });
+  }
+})();
+</script>
+</body>
+</html>
